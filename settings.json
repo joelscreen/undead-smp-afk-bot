@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "UndeadAFKBot",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "undeadsmp3.play.hosting",
+    "ip": "undeadsmp4.play.hosting",
     "port": 25565,
     "version": "1.21.11",
     "try-creative": false
@@ -30,11 +30,7 @@
       "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to SoloPlayz!",
-        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
-      ]
+      "messages": []
     },
     "chat-log": true,
     "auto-reconnect": true,
@@ -42,18 +38,18 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
